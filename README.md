@@ -6,6 +6,7 @@ Requires:
 * Grunt, Stylus.
 
 To use:
+* Clone this repo into directory with character's name.
 * Run `npm install`.
 * Create `character.html` file.
 * Create `stylus/style.styl` file.
