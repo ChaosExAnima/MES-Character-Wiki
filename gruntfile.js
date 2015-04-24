@@ -17,6 +17,9 @@ module.exports = function( grunt ) {
 			stylus: {
 				files: [ 'stylus/**/*.styl' ],
 				tasks: [ 'stylus', 'csslint' ]
+			},
+			html: {
+				files: [ 'index.php', 'character.html' ]
 			}
 		},
 

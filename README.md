@@ -8,6 +8,6 @@ Requires:
 To use:
 * Clone this repo into directory with character's name.
 * Run `npm install`.
-* Create `character.html` file.
+* Create `character.md` or `character.html` file.
 * Create `stylus/style.styl` file.
 * Run `grunt` and start coding!
