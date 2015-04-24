@@ -15,7 +15,7 @@ module.exports = function( grunt ) {
 				livereload: true
 			},
 			stylus: {
-				files: [ 'stylus/**/*.styl', 'mail.html' ],
+				files: [ 'stylus/**/*.styl' ],
 				tasks: [ 'stylus', 'csslint' ]
 			}
 		},
