@@ -19,7 +19,7 @@ module.exports = function( grunt ) {
 				tasks: [ 'stylus', 'csslint' ]
 			},
 			html: {
-				files: [ 'index.php', 'character.html' ]
+				files: [ 'index.php', 'character.html', 'character.md' ]
 			}
 		},
 

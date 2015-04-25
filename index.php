@@ -15,7 +15,11 @@
 			<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr">
 				<?php
 					if ( file_exists( 'character.md' ) ) {
-						
+						require( 'lib/wiky.inc.php' );
+						$parser = new wiky();
+						$input  = file_get_contents( 'character.md' );
+						echo $parser->parse( $input );
+
 					} else if ( file_exists( 'character.html' ) ) {
 						include 'character.html';
 					} else {
